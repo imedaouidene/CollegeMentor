@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_outline"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_searh"
+            android:icon="@drawable/search1"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_myc_colleges"
+            android:icon="@drawable/heart"
+            android:title="My colleges" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/forum"
+            android:title="Forum" />
+        <item
+            android:id="@+id/newcollege"
+            android:icon="@drawable/newcollege"
+            android:title="Suggest a college"/>
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profil"
+                android:icon="@drawable/profil"
+                android:title="Profil" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log out" />
+
+        </menu>
+    </item>
+
+</menu>

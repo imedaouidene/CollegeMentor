@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trier"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/fff"
+    tools:context="supcom.projetdevmob.com.collegementor.trier">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+       >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort By"
+        android:gravity="left"
+        android:layout_weight="8"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:drawableRight="@drawable/close_circle"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:id="@+id/closetrie"
+        />
+    </LinearLayout>
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/groupetrie">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="ALPHABATICAL"
+            android:id="@+id/alphabatical"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            android:button="@null"
+            android:gravity="center"
+
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="RATING"
+            android:id="@+id/rating"
+            android:background="@color/orange"
+            />
+        <RadioButton
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="DISTANCE"
+            android:background="@color/orange"
+            android:id="@+id/distance"
+            />
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:text="Apply"
+        android:id="@+id/applytrie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"/>
+</LinearLayout>

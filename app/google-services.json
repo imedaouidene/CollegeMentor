@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933166022440",
+    "project_id": "college-mentor"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933166022440:android:f02e57f6ea472cb7",
+        "android_client_info": {
+          "package_name": "supcom.projetdevmob.com.collegementor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933166022440-1338ciu54hb5artjui7ri7qu2nk6ov31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "supcom.projetdevmob.com.collegementor",
+            "certificate_hash": "BCF39B8E81E2737CA21C98ECAB2A031BEC20B363"
+          }
+        },
+        {
+          "client_id": "933166022440-clv2edbpisp7f1mrb0bod892etqoahav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLI_3DG3Yi7HYIplpBQyNfJII3ulTnPuk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
